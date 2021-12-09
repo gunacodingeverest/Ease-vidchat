@@ -122,6 +122,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(process.env.port, () => {
+server.listen(3000, () => {
   console.log(`listening on ${process.env.port}`);
 });
